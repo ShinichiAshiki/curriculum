@@ -68,7 +68,7 @@ body {
     margin: 0;
     padding: 0;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 479px) {
     .float-left{
         float: none;
     }
