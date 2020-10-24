@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+	/*font-family: 字体不明*/
+}
+.head-div{
+	background-color: gray;
+}
+.head-label-login{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+.head-label-today{
+	padding: 10px;
+	font-size: 10px;
+}
+.div-body{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.foot-div{
+	background-color: gray;
+}
+.foot-label{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+ul li{
+    list-style: none;
+    margin-left: -40px;
+}
+label{
+	display: inline-block;
+	text-align:center;
+	width: 50px;
+}
