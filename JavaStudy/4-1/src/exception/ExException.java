@@ -107,8 +107,7 @@ public class ExException {
      */
     // ここへ記述
     private static void occrNullPtException() throws NullPointerException{
-        String strNullString = null;
-        int strLen = strNullString.length();
+        throw new NullPointerException();
     }
     /**
      * 例外処理のメッセージを出力
