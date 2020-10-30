@@ -10,7 +10,6 @@
 </head>
 <body>
 
-<header>
 	<%
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
@@ -22,7 +21,6 @@
 		<label class ="head-label-login">login</label>
 		<label class="head-label-today"><%=today%></label>
 	</div>
-</header>
 
 <!-- </body>
 </html> -->
