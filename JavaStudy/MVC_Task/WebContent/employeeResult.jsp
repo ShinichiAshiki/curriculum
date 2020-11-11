@@ -70,7 +70,7 @@
                 <!-- Tips: ループにより取得したリスト内の社員情報Beanを使用すること -->
                 <td id="empId"><%=emp.getEmpId()%></td>
                 <td title="<%=emp.getName()%>"><%=emp.getName()%></td>
-                <td title="<%=emp.getMail()%>">emp.getMail()</td>
+                <td title="<%=emp.getMail()%>"><%=emp.getMail()%></td>
                 <td title="<%=emp.getProgramingLanguage()%>"><%=emp.getProgramingLanguage()%></td>
                 <td title="<%=emp.getComment()%>"><%=emp.getComment()%></td>
                 <td>
