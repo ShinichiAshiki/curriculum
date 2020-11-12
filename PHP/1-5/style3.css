@@ -1,0 +1,90 @@
+body {
+    width: 400px; 
+    height: 450px;
+}
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+.wrapper {
+    width: 400px; 
+    margin: 0 auto; 
+/* wrapperクラスを中央寄せ */
+}
+.header { 
+    height: 100px;
+    width: 400px;
+    background-color: #141f40;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.header-float{
+    margin: 20px;
+}
+.header-block{
+    box-sizing: content-box;
+    width: 40px;
+    height:40px;
+    background-color: #a9004b;
+    border: solid 10px #ffffff;
+    margin: -5px -5px -5px -5px;
+}
+.body-left{ 
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+.body-right{
+    width: 250px;
+    height: 250px;
+    background-color: #8C2727;
+}
+.body-right-blocks{
+    width: 140px;
+    height: 170px;
+    padding: 40px 60px 40px 40px;
+}
+.body-block-top,.body-block-middle,.body-block-bottom{
+    box-sizing: content-box;
+    width: 130px;
+    height: 40px;
+    border: solid 5px #ffffff;
+    background-color: #ff863f;
+}
+.body-block-top,.body-block-middle{
+    margin-bottom: 10px;
+}
+.footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 479px) {
+    .float-left{
+        float: none;
+    }
+    body,.wrapper,.header,.body-left,.body-right,.footer{
+        width: 200px;
+    }
+    .header{
+        height: 250px;
+    }
+    .header-float{
+        margin: 25px 75px 0px 0px;/*25pxは適当.75pxの5px分は-5px分の埋め合わせ*/
+    }
+    .body-right-blocks{
+        padding: 20px 30px 20px 30px;
+    }
+    .body-right{
+        height: 210px;
+    }
+}
