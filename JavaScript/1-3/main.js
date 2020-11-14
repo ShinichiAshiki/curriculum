@@ -1,6 +1,6 @@
 //問1回答
 console.log('a != 10')
-console.log('b >= 10 && b < 20')
+console.log('b >= 10 && b < 20 && b % 2 === 0')
 
 //問2回答
 let x = 10;
