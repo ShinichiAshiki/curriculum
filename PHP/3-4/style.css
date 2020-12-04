@@ -1,0 +1,43 @@
+.header{
+    float: left;
+}
+.yandiImg{
+    height: 120px;
+    width: 200px;
+    background-color: #add8e6;
+}
+.welcome-user{
+    height: 60px;
+    line-height: 60px;
+    width: 1000px;
+    text-align: right;
+    background-color: #87ceeb;
+}
+.last-login{
+    height: 60px;
+    line-height: 60px;
+    width: 1000px;
+    text-align: right;
+    background-color: #00ffff;
+}
+th{
+    text-align: center;
+    background-color: #87ceeb;
+}
+td{
+    padding: 10px;
+    background-color: #e0ffff;
+}
+.footer{
+    height: 50px;
+    width: 1000px;
+    background-color: #00ced1;
+    text-align: left;
+}
+body{
+    width: 1000px;
+    margin: auto;
+}
+table{
+    margin: auto;
+}
